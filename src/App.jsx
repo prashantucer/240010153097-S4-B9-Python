@@ -1,15 +1,16 @@
 import './App.css'
 import ExampleComponent from './components/ExampleComponent'
-import SmallComponent from './components/SmallComponent'
-import NewCompo from './components/NewCompo'
 
 function App() {
+  const name = 'CHOCO'
+  let x = 10
+  let y = 20
   return (
-    <>
-      <ExampleComponent />
-      <SmallComponent />
-      <NewCompo />
-    </>
+    <div>
+      <h1>User varb with JSX!</h1>
+      <h3>Value of varb is... {name}</h3>
+      <h5>JSX is cool, isn't it?</h5>
+    </div>
   )
 }
 
