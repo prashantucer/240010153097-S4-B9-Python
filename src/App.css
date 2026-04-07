@@ -1,9 +1,16 @@
-#root {
-  width: 100%;
+.app-shell {
   min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 3rem 1.5rem;
+  box-sizing: border-box;
+}
+
+.simple-text {
   margin: 0;
-  padding: 0;
-  display: grid;
-  place-items: center;
+  font-size: clamp(2rem, 4vw, 3.75rem);
+  font-weight: 700;
+  color: #0f172a;
   text-align: center;
 }
